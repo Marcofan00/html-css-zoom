@@ -3,7 +3,7 @@
     box-sizing: border-box;
     padding: 0;
 }
-
+/* nav */
 #nav{
     height: 20px;
     background-color: lightgray;
@@ -34,12 +34,12 @@
     margin-top: -16px;
 
 }
-
+/* main */
 #main{
-    height: 90vh;
+    height: 89vh;
     background-color: black;
 }
-
+/* button */
 #pulsanti{
     float:right ;
 }
@@ -51,21 +51,98 @@
     margin-top: 10px;
     margin-right: 10px;
 }
+/* frecce */
+.freccia-sx{
+    display: flex;
+    align-items: center;
+}
 
+.freccia-dx{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.fa-caret-left{
+    color: rgb(77, 77, 80);
+    font-size: 60px;
+    margin-left: 40px;
+    display: flex;
+}
+
+.white{
+    color: white;
+    align-items: center;
+}
+
+.fa-caret-right{
+    color: blue;
+    font-size: 60px;
+    margin-left: 40px;
+    
+}
+/* container principale */
 .container-flex{
     display: flex;
     flex-direction: row;
     justify-content: center;
+    position: relative;
+    color: white;
+    margin-left: 5%;
 }
-
+/* immagini */
 img{
     height: 110px;
-    width: 200px;
+    width: 230px;
     margin-top: 2px;
     margin-left: 2px;
     margin-right: 2px;
 }
 
+.name{
+    position: absolute;
+    margin-top: -22px;
+    margin-left: 3px;
+    background-color: rgba(20, 20, 20, 0.685);
+}
+
 .face{
   margin-top: 3%; 
 }
+/* footer */
+footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 8vh;
+    background-color: rgb(46, 44, 44);
+}
+footer ul{
+    display: flex;
+    text-align: center;
+    justify-content: space-around;
+    list-style: none;
+}
+
+footer li{
+    margin:8px;
+    color: white;
+}
+
+footer ul li i{
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+ 
+.fa-external-link-alt{
+    color: rgb(1, 201, 1);
+}
+footer .content-dx{
+    background-color:rgb(109, 107, 107);
+    color: red;
+    padding: 19px;
+}
+
+
+
+
