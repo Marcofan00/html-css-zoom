@@ -45,6 +45,8 @@
 #main{
     height: 89vh;
     background-color: black;
+    overflow-x: hidden;
+    overflow-y: scroll;
 }
 /* button */
 #pulsanti{
