@@ -34,6 +34,13 @@
     margin-top: -16px;
 
 }
+
+.clearfix:after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
 /* main */
 #main{
     height: 89vh;
